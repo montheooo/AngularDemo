@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { data } from './card/card.data';
+import { Card } from './models/card.model';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'AngularDemo';
+  cards : Card[] = data ;
 }
