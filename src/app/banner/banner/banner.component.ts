@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class BannerComponent {
 
+  comments = 'default value';
+  banner = {
+    heading: "Spring season is back!",
+    subHeading: "And so is our offers too. So why waiting?",
+    cta: "Check out all Products",
+    url: "https://www.amazon.ca/"
+  }
+  handleClick() {
+    console.log("CLicked the jumbotron button ")
+  }
 }
+
