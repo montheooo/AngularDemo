@@ -10,4 +10,7 @@ import { Card } from './models/card.model';
 export class AppComponent {
   title = 'AngularDemo';
   cards : Card[] = data ;
+  handleEvent(data: Card){
+    console.log(data);
+  }
 }
